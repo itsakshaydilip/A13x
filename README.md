@@ -1,47 +1,56 @@
 # A13x
 
-A13x is a pipeline created to simplify production and solve issues along the way that can happen as part of the universities software versions and lack of scripts or tools that may lead to slow production speeds, the student requesting for more help or even delay in submission due to unforeseen events. The pipeline also supports reverse compatibility as well as eliminates unwanted nodes and even slower load up times for Auto-desk Maya.
+A13x is a production pipeline built to simplify workflows and solve issues that arise from university software versions, missing scripts/tools, and the resulting slow production speeds, extra support requests, or submission delays. The pipeline also supports reverse compatibility, eliminates unwanted nodes, and reduces load times in Autodesk Maya.
 
+## Table of Contents
 
-# Software's
+- [Software](#software)
+- [Dependencies and Plugins](#dependencies-and-plugins)
+- [Production](#production)
+- [Quality Checks](#quality-checks)
+- [Texture Quality and Presets (Substance)](#texture-quality-and-presets-substance)
+- [Finalization](#finalization)
 
-This version of the pipeline is built on older versions of Maya (2023) and Z-brush as well as CC-5. We will be using unreal 5.5.4 that is being used at the University that does not support the metahuman pugin.
+## Software
 
-# Dependencies and plugins.
+| Software | Version | Notes |
+|---|---|---|
+| Maya | `2023` | |
+| ZBrush | latest release | |
+| Character Creator | `CC-5` | |
+| Unreal Engine | `5.5.4` | MetaHuman plugin not supported at this version (university build) |
 
- - Python - 3.10 or Anaconda (latest release)
+## Dependencies and Plugins
 
+- `Python 3.10` or Anaconda (latest release)
 
-# Production 
+## Production
 
-All assets start as regular concepts and go through the usual sculpting and re-topo phase as well as quality checks and file finalization. Assets are rendered in both Arnold and unreal in the exact same studio setup with matching lighting if not the closest.
+All assets start as regular concepts and go through the standard sculpting and re-topology phase, followed by quality checks and file finalization. Assets are rendered in both **Arnold** and **Unreal**, using the same studio setup with matching (or closely matched) lighting.
 
+## Quality Checks
 
-# Quality Checks
+Quality checks ensure perfectly versioned, organized files with optimized geometry and pivots, alongside sanity checks that confirm files are properly optimized for rigging.
 
-Quality checks pave the way for perfectly versioned and organized files with optimized geo, pivot as well as sanity checks that prevent files are optimized for rigging. The part we'd like to focus here is the fact that the pipelines scripts and tools can be used in other productions. Making this compatible across multiole industries be it game, animation or AR/VR. 
+A key goal here is that these scripts and tools are reusable across other productions — making the pipeline compatible across multiple industries, whether game, animation, or AR/VR.
 
-Knowledge comes through experience and having to fight with production co-ordinators and leads to solve issues with client tools and formats are a pain. Giving them a framework to develop over is a great way to solve issues and collaboration over github or git bridges gaps and solves issues even before they can ever exist.
+This kind of knowledge comes from experience — from working through production issues with coordinators and leads around client tools and formats. Giving teams a shared framework to build on solves these problems, and collaborating over GitHub (or Git bridges) closes gaps before they can even become issues.
 
-Quality check include :
+**Checklist:**
 
-- maya mesh check.
-- rigging check - (outdated or irrelevant when it comes to CC5 or metahuman).
-- Revention - Maya autosave utility with auto versioning. (honestly disk space isnt much of an issue should you use it wisely).
-- A pivot tool that manualy selts the pivot based on your input via a grid.
-- model scene check and cleaner
-- substance file loader - (makes it easy to lead file with proper color spaces)
+- [x] Maya mesh check
+- [x] Rigging check *(outdated/irrelevant for CC5 or MetaHuman)*
+- [x] Revention — Maya autosave utility with auto-versioning *(disk space usage is manageable if used wisely)*
+- [x] Pivot tool — sets pivot manually via grid-based input
+- [x] Model/scene checker and cleaner
+- [x] Substance file loader — loads files with correct color spaces
 
-Github Repo - [Link](https://github.com/itsakshaydilip)
+**GitHub Repo:** [itsakshaydilip](https://github.com/itsakshaydilip)
 
-# Texture quality and preset (substance)
+## Texture Quality and Presets (Substance)
 
-The textures will be set up using a substance preset that allows rendering in both Arnold as well as Unreal.
+Textures are set up using a Substance preset that allows consistent rendering in both **Arnold** and **Unreal**. These presets are included with the pipeline's `.zip` package.
 
-These presets will be included with the zip.
+## Finalization
 
-# Finalization
-
-Finalization includes folder organization and notes.
-
-
+Finalization includes folder organization and accompanying notes.
