@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+title: "A13x: A Unified Pipeline Layer for Naming Conventions and Asset Validation in Maya"
+authors:
+  - family-names: "Kumar"
+    given-names: "Akshay Dilip"
+version: 3.5.0
+date-released: 2026-08-09
+license: Apache-2.0
+repository-code: "https://github.com/itsakshaydilip/a13x"
