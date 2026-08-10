@@ -1,0 +1,24 @@
+name: Syntax Check
+
+# Maya's own Python environment (mayapy) can't run in CI, so this is
+# intentionally limited: it only confirms every tool module is
+# syntactically valid Python, catching typos/syntax errors before
+# they reach an artist's Maya session. It does NOT run the tools
+# themselves or exercise any maya.cmds calls.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  syntax-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: Compile-check all source modules
+        run: python -m py_compile $(find src/a13x -name "*.py")

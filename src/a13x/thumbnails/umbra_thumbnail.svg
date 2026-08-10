@@ -1,0 +1,56 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#2d2d2d"/>
+  
+  <!-- Messy scene (before) -->
+  <g id="before" opacity="0.3">
+    <rect x="50" y="80" width="40" height="40" fill="#888888" transform="rotate(15 70 100)"/>
+    <circle cx="100" cy="150" r="15" fill="#666666"/>
+    <polygon points="70,200 90,180 100,210" fill="#777777"/>
+    <rect x="60" y="240" width="30" height="30" fill="#555555" transform="rotate(-20 75 255)"/>
+  </g>
+  
+  <!-- Clean organized GEO group -->
+  <g id="geo-group" transform="translate(200, 150)">
+    <!-- Bounding box -->
+    <rect x="0" y="0" width="200" height="200" rx="8" fill="none" stroke="#4a90e2" stroke-width="4" stroke-dasharray="8,4"/>
+    
+    <!-- Organized meshes inside -->
+    <rect x="30" y="40" width="60" height="60" fill="#6bb6ff" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="140" cy="70" r="30" fill="#6bb6ff" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="85,130 115,130 100,160" fill="#6bb6ff" stroke="#ffffff" stroke-width="2"/>
+    
+    <!-- GEO label -->
+    <text x="100" y="190" font-family="monospace" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">GEO</text>
+  </g>
+  
+  <!-- Cleanup icons -->
+  <g id="cleanup-icons">
+    <!-- Broom/sweep icon -->
+    <g transform="translate(420, 140) rotate(-15)">
+      <rect x="0" y="0" width="12" height="80" rx="2" fill="#8b6914" stroke="#ffffff" stroke-width="1"/>
+      <rect x="-8" y="70" width="28" height="25" rx="2" fill="#ffdd00" stroke="#ffffff" stroke-width="2"/>
+      <line x1="-5" y1="75" x2="-5" y2="92" stroke="#8b6914" stroke-width="2"/>
+      <line x1="3" y1="75" x2="3" y2="92" stroke="#8b6914" stroke-width="2"/>
+      <line x1="11" y1="75" x2="11" y2="92" stroke="#8b6914" stroke-width="2"/>
+      <line x1="19" y1="75" x2="19" y2="92" stroke="#8b6914" stroke-width="2"/>
+    </g>
+    
+    <!-- Trash bin -->
+    <g transform="translate(410, 280)">
+      <rect x="0" y="10" width="50" height="60" rx="4" fill="#555555" stroke="#888888" stroke-width="2"/>
+      <rect x="-5" y="5" width="60" height="8" rx="2" fill="#777777" stroke="#888888" stroke-width="2"/>
+      <line x1="15" y1="25" x2="15" y2="55" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="25" y1="25" x2="25" y2="55" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round"/>
+      <line x1="35" y1="25" x2="35" y2="55" stroke="#ff6b6b" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Checkmark in circle -->
+  <circle cx="430" cy="380" r="40" fill="#28a745" stroke="#ffffff" stroke-width="3"/>
+  <path d="M 410 380 L 423 395 L 450 365" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Title -->
+  <text x="256" y="480" font-family="Arial" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">Umbra</text>
+  <text x="256" y="505" font-family="Arial" font-size="18" fill="#aaaaaa" text-anchor="middle">Scene Cleaner</text>
+</svg>

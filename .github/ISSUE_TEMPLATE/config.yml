@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation / Quick Start
+    url: https://akshaydilipkumar.com/a13x
+    about: Check the Quick Start guide before filing an issue — many install
+      questions are already answered there.
+  - name: Ask a question
+    url: https://github.com/itsakshaydilip/A13x/discussions
+    about: For general questions rather than a specific bug or feature,
+      please use Discussions instead of an issue.

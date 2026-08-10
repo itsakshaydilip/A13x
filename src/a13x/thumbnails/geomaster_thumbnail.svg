@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#2d2d2d"/>
+  
+  <!-- Grid background -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#404040" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#grid)"/>
+  
+  <!-- Main 3D mesh shape -->
+  <path d="M 256 100 L 400 200 L 400 350 L 256 450 L 112 350 L 112 200 Z" 
+        fill="#4a90e2" stroke="#6bb6ff" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Checkmark circle overlay -->
+  <circle cx="380" cy="130" r="70" fill="#28a745" stroke="#ffffff" stroke-width="4"/>
+  <path d="M 350 130 L 370 155 L 410 110" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  
+  <!-- Warning triangle -->
+  <polygon points="140,400 100,460 180,460" fill="#ffc107" stroke="#ffffff" stroke-width="3"/>
+  <text x="140" y="450" font-family="Arial" font-size="40" font-weight="bold" fill="#2d2d2d" text-anchor="middle">!</text>
+  
+  <!-- Title -->
+  <text x="256" y="490" font-family="Arial" font-size="28" font-weight="bold" fill="#ffffff" text-anchor="middle">GeoMaster</text>
+</svg>

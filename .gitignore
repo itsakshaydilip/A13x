@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+*.egg
+
+# Packaging
+# NOTE: dist/*.whl and dist/*.tar.gz are intentionally NOT ignored —
+# they are committed so `mayapy -m pip install dist/a13x-*.whl` works
+# straight from a local clone, as documented in the README.
+
+# Maya
+*.mayaSwatches/
+*.mb.swatches/
+*.ma.bak
+*.mb.bak
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
+
+# Virtual environments
+venv/
+.venv/
+env/

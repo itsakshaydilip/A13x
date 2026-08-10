@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "a13x"
+version = "3.5.0"
+description = "A13x - a Maya pipeline plug-in bundling GeoMaster, Nomenclator, ThumbTac, Revention, Substance Loader and Umbra behind a single pinned shelf."
+readme = "README.md"
+license = { text = "Apache-2.0" }
+requires-python = ">=3.7"
+authors = [
+    { name = "A13x Pipeline" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Topic :: Multimedia :: Graphics :: 3D Modeling",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://pypi.org/project/a13x/"
+
+[project.scripts]
+a13x-quickstart = "a13x.quickstart:open_quick_start"
+a13x-uninstall = "a13x.uninstaller:cli_main"
+a13x-purge = "a13x.pathfinder:cli_main"
+a13x-register-plugin = "a13x.headless:cli_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+a13x = ["thumbnails/*.svg", "thumbnails/*.png", "docs/*.pdf"]
