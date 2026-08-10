@@ -1,21 +1,20 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
+message: If you use this software, please cite it as below.
 type: software
-title: "A13x: A Unified Pipeline Layer for Naming Conventions and Asset Validation in Maya"
+title: A13x: A Unified Pipeline Layer for Naming Conventions and Asset Validation in Maya
 abstract: >-
   A13x is an open-source Maya pipeline plug-in bundling six tools
   (GeoMaster, Nomenclator, ThumbTac, Revention, Substance Loader and Umbra)
   behind a single shelf, enforcing naming conventions, geometry validation,
   versioning, and texture correctness live inside the Maya scene graph.
 authors:
-  - family-names: "Kumar"
-    given-names: "Akshay Dilip"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Kumar
+    given-names: Akshay Dilip
 version: 3.5.0
-date-released: 2026-08-10
+date-released: "2026-08-10"
 license: Apache-2.0
-repository-code: "https://github.com/itsakshaydilip/a13x"
-url: "https://akshaydilipkumar.com/a13x"
+repository-code: https://github.com/itsakshaydilip/A13x
+url: https://akshaydilipkumar.com/a13x
 keywords:
   - maya
   - vfx-pipeline
