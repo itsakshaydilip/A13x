@@ -1,7 +1,7 @@
 # A13x
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](#how-to-cite)
+[[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](#how-to-cite)](https://doi.org/10.5281/zenodo.21879886)
 <!-- Replace the DOI badge above with the real one Zenodo issues after your first tagged release. -->
 
 A Maya pipeline plug-in that bundles six tools behind a single pinned
