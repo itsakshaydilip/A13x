@@ -146,22 +146,21 @@ A13x workflow, use GitHub Discussions rather than opening an issue.
 For bugs and feature requests, use the issue templates in the repository.
 
 - GitHub Discussions: https://github.com/itsakshaydilip/A13x/discussions
-- Setup guide: [docs/GITHUB_DISCUSSIONS.md](docs/GITHUB_DISCUSSIONS.md)
 
 ## Contributing
 
 Bug reports, feature requests, and DCC-port proposals (Blender, Houdini)
-are welcome - see [`CONTRIBUTING.md`](CONTRIBUTING.md) for the workflow
+are welcome - see [`CONTRIBUTING.md`](https://github.com/itsakshaydilip/A13x/blob/main/CONTRIBUTING.md) for the workflow
 and code conventions before opening a PR.
 
 ## Changelog
 
-Version history lives in [`CHANGELOG.md`](CHANGELOG.md).
+Version history lives in [`CHANGELOG.md`](https://github.com/itsakshaydilip/A13x/blob/main/CHANGELOG.md).
 
 ## How to Cite
 
 If you use A13x in a pipeline, a paper, or another project, please cite
-it using the metadata in [`CITATION.cff`](CITATION.cff) - GitHub renders
+it using the metadata in [`CITATION.cff`](https://github.com/itsakshaydilip/A13x/blob/main/CITATION.cff) - GitHub renders
 a ready-to-copy citation from this file via the **"Cite this repository"**
 button in the sidebar.
 
@@ -171,4 +170,4 @@ versioned snapshot suitable for formal citation.
 
 ## License
 
-Apache License 2.0 - see [`LICENSE`](LICENSE) for full terms.
+Apache License 2.0 - see [`LICENSE`](https://github.com/itsakshaydilip/A13x/blob/main/LICENSE) for full terms.
