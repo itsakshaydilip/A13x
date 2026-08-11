@@ -42,8 +42,6 @@ both of us.
 
 Use GitHub Discussions for general questions, installation help, workflow
 questions, or ideas that are not specific bugs or feature requests.
-The repository includes a discussion template and setup notes in
-[docs/GITHUB_DISCUSSIONS.md](docs/GITHUB_DISCUSSIONS.md).
 
 ## Reporting bugs
 
